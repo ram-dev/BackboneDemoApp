@@ -1,0 +1,1 @@
+module.exports = require("github:airbnb/polyglot.js@0.4.3/index");

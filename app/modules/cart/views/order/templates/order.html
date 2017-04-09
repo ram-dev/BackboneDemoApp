@@ -1,0 +1,43 @@
+<h3>Order Summary</h3>
+<div class="panel panel-info">
+  	<!-- Default panel contents -->
+  	<div class="panel-heading">Product Details <span class="floatRight">Total : Rs <%= total%></span>
+		<span class="clear"></span></div>
+
+  	<!-- Table -->
+  	<table class="table">
+	  	<thead>
+	  		<tr> 
+	  			<th>#</th> 
+	  			<th>Product Name</th>
+	  			<th>Quantity</th>
+	  			<th>Price</th>
+	  		</tr>
+	  	</thead>
+	  	<tbody> 
+		  	<%=tmpl%>	 
+	  	</tbody>
+	  	<tfoot>
+	  		<tr> 
+		  		<th scope="row"></th> 
+			  	<td></td>
+			  	<td></td>
+			  	<td><%= total%></td>
+		  	</tr> 
+	  	</tfoot>
+	</table>
+	
+</div>
+<div class="panel panel-info">
+  <!-- Default panel contents -->
+  	<div class="panel-heading">Shipping Information</div>
+	<ul class="list-group">
+		<li class="list-group-item">
+		<%= sd.name%> <br/>
+		<%= sd.address%> <br/>
+		<%= sd.city%> - <%= sd.zipcode%> <br/>
+		<%= sd.state%>
+		</li>
+		
+	</ul>
+</div>

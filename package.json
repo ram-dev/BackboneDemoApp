@@ -1,0 +1,27 @@
+{
+  "jspm": {
+    "dependencies": {
+      "backbone": "npm:backbone@^1.2.1",
+      "bootstrap": "github:twbs/bootstrap@^3.3.5",
+      "clean-css": "npm:clean-css@^3.3.5",
+      "controller": "npm:backbone.controller@^0.3.1",
+      "courier": "github:rotundasoftware/backbone.courier@^1.0.4",
+      "css": "github:systemjs/plugin-css@^0.1.13",
+      "datatables": "github:DataTables/DataTables@master",
+      "formvalidation/formvalidation": "github:formvalidation/formvalidation@master",
+      "jquery": "github:components/jquery@^2.1.4",
+      "polyglot": "github:airbnb/polyglot.js@^0.4.3",
+      "store": "github:marcuswestin/store.js@^1.3.17",
+      "subviews": "github:rotundasoftware/backbone.subviews@^0.7.3",
+      "superagent": "npm:superagent@^1.2.0",
+      "text": "github:systemjs/plugin-text@^0.0.2",
+      "underscore": "npm:underscore@^1.8.3",
+      "validator": "github:formvalidation/formvalidation@master"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
+  }
+}

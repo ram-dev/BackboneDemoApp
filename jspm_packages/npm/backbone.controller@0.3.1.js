@@ -1,0 +1,1 @@
+module.exports = require("npm:backbone.controller@0.3.1/backbone.controller");
