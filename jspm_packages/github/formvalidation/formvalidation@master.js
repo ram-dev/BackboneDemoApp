@@ -1,1 +1,0 @@
-module.exports = require("github:formvalidation/formvalidation@master/dist/js/formValidation.js");
